@@ -1,0 +1,4 @@
+create database bank;use bank;
+create table userinfo(id int(4) primary key auto_increment,name varchar(50),email varchar(50),password varchar(50),utype varchar(10));
+insert into userinfo(name,email,password,utype)values('Aakriti Simkhada','aakriti@email.com','pass1234','admin');
+show tables;select*from userinfo; 
